@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated results
+results/*
+
+# Keep the results folder in GitHub
+!results/.gitkeep
+
+# ML model/checkpoint files
+*.pt
+*.pth
+
+# Generated plots / animations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+
+# Data/output files
+*.dat
+*.csv
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*~
+
+# OS
+.DS_Store
